@@ -1,0 +1,8 @@
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\bin\Debug\netstandard2.1\DebuggingFeatures.Shared.deps.json
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\bin\Debug\netstandard2.1\DebuggingFeatures.Shared.dll
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\bin\Debug\netstandard2.1\DebuggingFeatures.Shared.pdb
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\obj\Debug\netstandard2.1\DebuggingFeatures.Shared.AssemblyInfoInputs.cache
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\obj\Debug\netstandard2.1\DebuggingFeatures.Shared.AssemblyInfo.cs
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\obj\Debug\netstandard2.1\DebuggingFeatures.Shared.csproj.CoreCompileInputs.cache
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\obj\Debug\netstandard2.1\DebuggingFeatures.Shared.dll
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures\Shared\obj\Debug\netstandard2.1\DebuggingFeatures.Shared.pdb

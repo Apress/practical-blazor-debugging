@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mSq8N2A62BxN4MneAKmYVC7rHTFB8Hy+T0KlLaaJCPGzT96AUtE1/uvlC8CnJAqN9Fwb420tOGEnGCF550kFzw==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\DebuggingFeatures\\DebuggingFeatures.Weather.Infra\\DebuggingFeatures.Weather.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

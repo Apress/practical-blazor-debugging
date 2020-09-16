@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Demo.Components\\Demo.Components.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Demo.Components\\Demo.Components.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Demo.Components\\Demo.Components.csproj",
+        "projectName": "Demo.Components",
+        "projectPath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Demo.Components\\Demo.Components.csproj",
+        "packagesPath": "C:\\Users\\PeterHimschoot\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Demo.Components\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PeterHimschoot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/kwJMcBGNmOzltqqSAZtCE4nF3GiYPWfiqbr9JHN9kNyflDj4XX/api": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Shared\\Demo.Shared.csproj": {
+                "projectPath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Shared\\Demo.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Shared\\Demo.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Shared\\Demo.Shared.csproj",
+        "projectName": "Demo.Shared",
+        "projectPath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Shared\\Demo.Shared.csproj",
+        "packagesPath": "C:\\Users\\PeterHimschoot\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PeterHimschoot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/kwJMcBGNmOzltqqSAZtCE4nF3GiYPWfiqbr9JHN9kNyflDj4XX/api": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

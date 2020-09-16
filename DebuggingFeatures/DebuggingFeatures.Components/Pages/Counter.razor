@@ -1,0 +1,58 @@
+﻿@page "/counter"
+@inject ILocalStorage localStorage
+
+<h1>Counter</h1>
+
+<p>Current count: @CurrentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    private void IncrementCount()
+    {
+      CurrentCount += 1;
+    }
+
+  protected override async Task OnAfterRenderAsync(bool firstRender)
+  {
+    base.OnAfterRender(firstRender);
+    if (firstRender)
+    {
+      CurrentCount = await localStorage.GetProperty<int>(nameof(CurrentCount));
+      await localStorage.WatchAsync(this);
+      this.StateHasChanged();
+    }
+  }
+
+
+  private int currentCount = 0;
+
+  public int CurrentCount
+  {
+    get => currentCount;
+    set
+    {
+      if (currentCount != value)
+      {
+        currentCount = value;
+        localStorage.SetProperty<int>(nameof(CurrentCount), currentCount);
+      }
+    }
+  }
+
+  [JSInvokable]
+  public async Task UpdateCounter()
+  {
+    int? c = await localStorage.GetProperty<int?>(nameof(CurrentCount));
+    if (c.HasValue)
+    {
+      currentCount = c.Value;
+    }
+    this.StateHasChanged();
+  }
+
+  private void DoTheLoop()
+  {
+  }
+}

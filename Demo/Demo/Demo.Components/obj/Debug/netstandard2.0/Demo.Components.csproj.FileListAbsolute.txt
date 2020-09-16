@@ -1,0 +1,12 @@
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\Demo.Components.csprojAssemblyReference.cache
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\Demo.Components.AssemblyInfoInputs.cache
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\Demo.Components.AssemblyInfo.cs
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\Demo.Components.csproj.CoreCompileInputs.cache
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\Demo.Components.RazorComponent.input.cache
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Code\Experiments\Demo\Demo\Demo.Components\obj\Debug\netstandard2.0\RazorDeclaration\_Imports.razor.g.cs

@@ -1,0 +1,12 @@
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\bin\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.deps.json
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\bin\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.dll
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\bin\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.pdb
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\bin\Debug\netstandard2.1\DebuggingFeatures.Shared.dll
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\bin\Debug\netstandard2.1\DebuggingFeatures.Shared.pdb
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\obj\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.csprojAssemblyReference.cache
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\obj\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.AssemblyInfoInputs.cache
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\obj\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.AssemblyInfo.cs
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\obj\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.csproj.CoreCompileInputs.cache
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\obj\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.csproj.CopyComplete
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\obj\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.dll
+C:\Code\GitHub\Apress.Videos.Debugging.Blazor\DebuggingFeatures\DebuggingFeatures.Weather.Infra\obj\Debug\netstandard2.1\DebuggingFeatures.Weather.Infra.pdb

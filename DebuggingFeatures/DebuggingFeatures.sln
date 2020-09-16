@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebuggingFeatures.Server", "DebuggingFeatures\Server\DebuggingFeatures.Server.csproj", "{28896337-7E85-4429-8398-B4BF2DB68982}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebuggingFeatures.Blazor.WebAssembly", "DebuggingFeatures\Client\DebuggingFeatures.Blazor.WebAssembly.csproj", "{6CFA7769-F67E-4536-AD43-C0A6FA1C3434}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebuggingFeatures.Shared", "DebuggingFeatures\Shared\DebuggingFeatures.Shared.csproj", "{2C1D0E06-16E9-48C6-AB46-94E17229F3E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebuggingFeatures.Components", "DebuggingFeatures.Components\DebuggingFeatures.Components.csproj", "{495245B2-C5C1-43B1-BC50-131B3B5D9C0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebuggingFeatures.Blazor.Server", "DebuggingFeatures.Blazor.Server\DebuggingFeatures.Blazor.Server.csproj", "{AECEBA77-5BC2-4074-83C5-0D6AD6D5933C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebuggingFeatures.Weather.Infra", "DebuggingFeatures.Weather.Infra\DebuggingFeatures.Weather.Infra.csproj", "{D54DB844-08ED-4CF0-9370-1786AFCFC017}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{DD461204-F1D2-413B-B093-A38AF9481DF5}"
+	ProjectSection(SolutionItems) = preProject
+		Debugging.Blazor.Server.md = Debugging.Blazor.Server.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28896337-7E85-4429-8398-B4BF2DB68982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28896337-7E85-4429-8398-B4BF2DB68982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28896337-7E85-4429-8398-B4BF2DB68982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28896337-7E85-4429-8398-B4BF2DB68982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFA7769-F67E-4536-AD43-C0A6FA1C3434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFA7769-F67E-4536-AD43-C0A6FA1C3434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFA7769-F67E-4536-AD43-C0A6FA1C3434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFA7769-F67E-4536-AD43-C0A6FA1C3434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1D0E06-16E9-48C6-AB46-94E17229F3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1D0E06-16E9-48C6-AB46-94E17229F3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1D0E06-16E9-48C6-AB46-94E17229F3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1D0E06-16E9-48C6-AB46-94E17229F3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495245B2-C5C1-43B1-BC50-131B3B5D9C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495245B2-C5C1-43B1-BC50-131B3B5D9C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495245B2-C5C1-43B1-BC50-131B3B5D9C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495245B2-C5C1-43B1-BC50-131B3B5D9C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECEBA77-5BC2-4074-83C5-0D6AD6D5933C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECEBA77-5BC2-4074-83C5-0D6AD6D5933C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECEBA77-5BC2-4074-83C5-0D6AD6D5933C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECEBA77-5BC2-4074-83C5-0D6AD6D5933C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54DB844-08ED-4CF0-9370-1786AFCFC017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54DB844-08ED-4CF0-9370-1786AFCFC017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54DB844-08ED-4CF0-9370-1786AFCFC017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54DB844-08ED-4CF0-9370-1786AFCFC017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42C89E9C-A5A5-4717-B829-7C41CEB17560}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cn/xcM/36MCgR3KlNuEGn5uAnjOMVpXkvm5R91QF0Uv7mN0xEcf6/XrJj1YNqh3msdthKyg8IxwOYmDn7ZAToA==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\DebuggingFeatures\\DebuggingFeatures\\Shared\\DebuggingFeatures.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

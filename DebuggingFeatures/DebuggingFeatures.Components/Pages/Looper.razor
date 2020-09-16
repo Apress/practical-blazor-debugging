@@ -1,0 +1,100 @@
+﻿@page "/looper"
+
+<h3>Looper</h3>
+
+<div><button @onclick="CallBreakPoints">Breakpoints</button></div>
+<div><button @onclick="DoTheLoop">Do The Loop</button></div>
+<div><button @onclick="DataBreakpoints">DataBreakpoints</button></div>
+
+@code {
+
+    private void CallBreakPoints()
+    {
+      BreakPoints();
+    }
+
+    private void BreakPoints()
+    {
+      string message = "Normal breakpoint";
+      message = "Disabled breakpoint";
+      message = "Tracepoint";
+      message = "Advanced breakpoint";
+      message = "Using assertions";
+      if (System.Diagnostics.Debugger.IsAttached && (message == null || message.Length > 10))
+      {
+        System.Diagnostics.Debugger.Break();
+      }
+    }
+
+    int[] nrs = Enumerable.Range(1, 10000).ToArray();
+
+    private void DoTheLoop()
+    {
+      foreach (int nr in nrs)
+      {
+        Check(nr);
+      }
+    }
+
+    private void ForLoop()
+    {
+      for (int index = 0; index <= nrs.Length; index += 1)
+      {
+        Check(nrs[index]);
+      }
+    }
+
+    private void DataBreakpoints()
+    {
+      this.someClass.Message = "Data breakpoints";
+    }
+
+    private void InvalidArgument(string message)
+    {
+      message = message ?? throw new ArgumentNullException(nameof(message));
+    }
+
+    private void Check(int nr)
+    {
+      if (SomeComplexLogicHere(nr))
+      {
+        throw new Exception("Try to catch me!");
+      }
+    }
+
+    private SomeClass someClass;
+
+    protected override void OnInitialized()
+    {
+      base.OnInitialized();
+
+      someClass = new SomeClass { Message = "foo" };
+    }
+
+#if DEBUG
+    /// <summary>
+    /// Debug condition checking if message is not too long, or null
+    /// </summary>
+    public bool CheckMessage(string message)
+    {
+      if (message != null)
+      {
+        return message.Length > 10;
+      }
+      return true;
+    }
+#endif
+
+    private IEnumerable<int> BuildRandomList(int size)
+    {
+      var rnd = new Random();
+      for (int i = 0; i < size; i += 1)
+      {
+        yield return nrs[rnd.Next(0, nrs.Length)];
+      }
+    }
+
+    public bool SomeComplexLogicHere(int i)
+      => i == 345;
+
+}

@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Code\GitHub\Apress.Videos.Debugging.Blazor\Demo\Demo\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Code\GitHub\Apress.Videos.Debugging.Blazor\Demo\Demo\Client\bin\Debug\netstandard2.1\wwwroot\" />
+</StaticWebAssets>

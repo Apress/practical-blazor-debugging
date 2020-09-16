@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "LPRsoial/cJ/timSb0Q5Zn6+IAFXUSrVUcgI3PgSWuTCN7hoK/l4AGTVNwZuQqFTDzRnv4x0Awm3XYq1MBN57A==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\GitHub\\Apress.Videos.Debugging.Blazor\\Demo\\Demo\\Demo.Debugging\\Demo.Debugging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.4\\microsoft.aspnetcore.authorization.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.4\\microsoft.aspnetcore.components.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.4\\microsoft.aspnetcore.components.analyzers.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.4\\microsoft.aspnetcore.components.forms.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.4\\microsoft.aspnetcore.components.web.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.4\\microsoft.aspnetcore.metadata.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\microsoft.jsinterop\\3.1.4\\microsoft.jsinterop.3.1.4.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
+    "C:\\Users\\PeterHimschoot\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
